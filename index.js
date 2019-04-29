@@ -25,7 +25,7 @@ function deepestChild() {
   .querySelector('div#grand-node')
   .querySelectorAll('div')
   for (let i = 0; i<a.length; i++) {
-    return document.querySelector(a[i])
+   document.querySelector(a[i])
   }
   console.log(b)
   }
