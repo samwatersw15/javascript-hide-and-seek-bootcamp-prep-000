@@ -26,6 +26,6 @@ function deepestChild() {
   .querySelectorAll('div#grand-node')
   for (let i = 0; i<a.length; i++) {
     b.push(a[i])
+    console.log(b)
   }
-  console.log(b)
   }
