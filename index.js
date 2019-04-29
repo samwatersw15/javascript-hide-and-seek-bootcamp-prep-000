@@ -21,12 +21,11 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  let b = []
   let a = document
   .querySelector('div#grand-node')
   .querySelectorAll('div')
-  for (let i = 0; i<a.length; a++) {
-    var c = querySelector(a[i])
-    console.log(c)
+  for (let i = 0; i<a.length; i++) {
+    let b = document.querySelector(a[i])
   }
+  console.log(b)
   }
