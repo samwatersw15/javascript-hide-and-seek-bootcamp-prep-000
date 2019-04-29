@@ -24,5 +24,5 @@ function deepestChild() {
   let a = document
   .getElementById('grand-node')
   .querySelectorAll('div')
-  
+  console.log(a)
   }
