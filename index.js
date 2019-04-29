@@ -21,8 +21,8 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  let a = document
   let b = []
+  let a = document
   .querySelectorAll('div#grand-node')
   for (let i = 0; i<a.length; i++) {
     b.push(a[i])
